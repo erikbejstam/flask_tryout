@@ -6,9 +6,10 @@ views = Blueprint('views', __name__)
 def home():
     return render_template("home.html")
 
-@views.route('/login') #när man går till route / så kommer den funk köras
-def login():
-    return render_template("login.html", text="test")
+
+
+
+
 
 
 
